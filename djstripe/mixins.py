@@ -10,8 +10,6 @@
 
 from __future__ import unicode_literals
 
-from django.conf import settings
-
 from . import settings as djstripe_settings
 from .models import Plan, Customer
 
